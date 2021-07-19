@@ -1,0 +1,168 @@
+<!--
+URIEL ANTHONI ILES CALDERON
+ADSI SENA
+WEB RESPONSIVE-->
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>Actividad No. 2</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/estilo.css"> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Patrick+Hand|Rock+Salt|Special+Elite"
+		rel="stylesheet">
+	<script src="ajax/jquery.min.js"></script>
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				touch: true,
+				pauseOnAction: false,
+				pauseOnHover: false,
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<!-- Seccion del encabezado -->
+	<header>
+		<div id="contenedor">
+			<img src="imag/logoU.png" class="logo" />
+			<h1 class="item h1">PROYECTO DE SITIO WEB 2021 I - PERIODO 16-02</h1>
+		</div>
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="imag/slider1.png" alt="">
+					<section class="flex-caption">
+						<p></p>
+					</section>
+				</li>
+				<li>
+					<img src="imag/slider2.png" alt="">
+					<section class="flex-caption">
+						<p></p>
+					</section>
+				</li>
+				<li>
+					<img src="imag/slider3.png" alt="">
+					<section class="flex-caption">
+						<p></p>
+					</section>
+				</li>
+			</ul>
+		</div>
+		</label>
+
+	</header>
+	<!-- Barra de menu horizontal  -->
+	<!-- Insertar Boostrap  -->
+	<nav>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								TEMAS
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="html5.html"">HTML 5</a></li>
+					  <li><a class=" dropdown-item" href="css3.html">css 3</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								RECURSOS DIGITALES
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="multimedia.html">MULTIMEDIA</a></li>
+								<li><a class="dropdown-item" href="audio.html">AUDIO</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								APRENDIZAJE
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="actividad1.html">APRENDIZAJE 1</a></li>
+								<li><a class="dropdown-item" href="actividad2.html">APRENDIZAJE 2</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="autor.html">AUTOR</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Escribir..." aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Buscar</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</nav>
+	<!-- Seccion central -->
+	<div class="container">
+		<div class="row">
+			<aside class="col-4">
+				<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/UniversidadUNAD"
+					data-widget-id="251584198211674113">Tweets por el @UniversidadUNAD.</a>
+				<script>!function (d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ?
+							'http' : 'https'; if (!d.getElementById(id)) {
+								js = d.createElement(s); js.id = id; js.src = p +
+									"://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+							}
+					}(document, "script",
+						"twitter-wjs");
+				</script>
+			</aside>
+			<section class="col-8">
+				<!-- Contenido de aprendizaje -->
+				<h3>Cuestionario de CSS3</h3>
+				<P>Estas preguntas tratan sobre tema de CSS3, Respondelas y adquiere tu conocimiento sobres esta
+					herramienta de la WEB.</P>
+				<iframe
+					src="https://docs.google.com/forms/d/e/1FAIpQLSc8fieytgq0A9VzgrLORJWqFoNBSR00ZGyUiIqRhNQ-2VLYbw/viewform?embedded=true"
+					width="640" height="1802" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+			</section>
+		</div>
+	</div>
+	<!-- Pie de pagina -->
+	<div id="piepagina">
+		<footer>
+			PROYECTO DE SITIO WEB - 301122_13 / 2021 I - PERIODO 16-02
+			<BR>
+			Univerisdad Nacional Abierta y a Distancia UNAD -2021
+			<br>
+			<b>Fecha de actualización:</b> 18-07-2021
+		</footer>
+	</div>
+</body>
+
+</html>
